@@ -1,4 +1,4 @@
-name: Autojson random
+name: Autojson ngaunhien
 on:
   workflow_dispatch: 
 
