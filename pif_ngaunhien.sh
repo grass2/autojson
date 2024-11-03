@@ -90,7 +90,7 @@ find . -maxdepth 1 -name "*_HTML" -exec rm {} \;
 rm pif.json
 
 # No ts
-cp osmosis_ngaunhien.json device_osmosis_ngaunhien.json 
+cp osmosis.json device_osmosis.json 
 
 # Adapt for tricky
 jq '.spoofProps = "0" | .spoofProvider = "0"' osmosis.json  > tmp.json
