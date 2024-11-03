@@ -81,10 +81,10 @@ EOF
 find . -maxdepth 1 -name "*_HTML" -exec rm {} \;
 
 # Add fields on chiteroman.json
-./migrate_chiteroman.sh pif.json chiteroman_ngaunhien.json
+./migrate_chiteroman.sh pif.json chiteroman.json
 
 # Migrate osmosis
-./migrate_osmosis.sh -a pif.json osmosis_ngaunhien.json 
+./migrate_osmosis.sh -a pif.json osmosis.json 
 
 # Delete prev pif
 rm pif.json
