@@ -4,7 +4,7 @@ on:
 
   push: 
     branches:
-      - main
+      - ngaunhien
 
 jobs:
   build:
@@ -14,13 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          ref: main  
+          ref: ngaunhien  
       
       - name: Grant execute permission for script
         run: chmod +x *.sh
 
       - name: Generate JSON file
-        run: ./pif_ramdon.sh
+        run: ./pif_ngaunhien.sh
 
       - name: Check differences in chiteroman.json
         run: |
