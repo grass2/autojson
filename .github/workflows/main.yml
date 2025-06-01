@@ -22,7 +22,7 @@ jobs:
         run: chmod +x *.sh
 
       - name: Generate JSON file
-        run: ./pif.old.sh -p
+        run: ./pif_old.sh -p
 
       - name: Check differences in chiteroman.json
         run: |
