@@ -1,4 +1,4 @@
-name: Autojson xiaomi.eu
+name: Autojson 
 
 on:
   workflow_dispatch: 
