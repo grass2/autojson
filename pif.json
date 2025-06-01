@@ -1,0 +1,10 @@
+{
+  "PRODUCT": "akita_beta",
+  "DEVICE": "akita",
+  "MANUFACTURER": "Google",
+  "BRAND": "google",
+  "MODEL": "Pixel 8a",
+  "FINGERPRINT": "google/akita_beta/akita:16/BP31.250502.008/13497110:user/release-keys",
+  "SECURITY_PATCH": "2025-05-05",
+  "FIRST_API_LEVEL": "25"
+}
