@@ -1,4 +1,4 @@
-name: Autojson main
+name: Autojson xiaomi.eu
 
 on:
   workflow_dispatch: 
@@ -22,7 +22,7 @@ jobs:
         run: chmod +x *.sh
 
       - name: Generate JSON file
-        run: ./pif.sh -p
+        run: ./pif.old.sh -p
 
       - name: Check differences in chiteroman.json
         run: |
