@@ -4,7 +4,7 @@ on:
   workflow_dispatch: 
   push:
     branches:
-      - main
+      - Xiaomi.eu
   schedule:
     - cron: '0 * * * *' # Runs at the start of every hour
 
